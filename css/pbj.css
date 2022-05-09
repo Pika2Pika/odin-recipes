@@ -1,0 +1,40 @@
+.image{
+    height: auto;
+    max-width: 50rem;
+    
+    margin: auto;  
+   
+
+}
+
+
+.image:hover{  animation-name: pbj;
+animation-duration: 500ms; animation-iteration-count: infinite; animation-fill-mode: forwards;}
+@keyframes pbj { 
+from{transform: scale(inherit);}
+to {transform: scale(3.2);}}
+
+}
+    
+h1{ 
+    text-align: center; background-color: rgb(208, 201, 192);
+ }
+ /*body{background: url(https://media.discordapp.net/attachments/798103108705845248/973031615800410152/IMG_5651.jpg?width=900&height=676) }
+*/
+ .ingredients{
+    border-width: 0.1em;
+    border-color: black;
+    box-shadow: 0.5em 0 1em 1em rgba(0,0 ,0 , 0.2);
+    background-color: rgba(0, 0, 0, 0.197);
+list-style-type:lower-alpha;
+
+ }
+
+ 
+
+
+section{display: flex; flex-direction: column 2; flex-wrap: wrap
+    ; justify-content: space-evenly; background-color: #EFEAD8;}
+body{text-align: center; background-color:#5F7161;}}
+
+p:hover{background-color: aqua; transform: scale(2);}
